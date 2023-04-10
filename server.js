@@ -10,7 +10,7 @@ app.get('/',(req,res)=>{
     res.render('index')
 })
 
-app.get('/about',(res,req)=>{
+app.get('/about',(rreq,res)=>{
     res.render('about')
 })
 
